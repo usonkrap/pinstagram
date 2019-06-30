@@ -17,3 +17,8 @@ yarn add @babel/node
 yarn add @babel/preset-env
 ```
 
+## 1.2 Setting Up the Server like the Props
+```
+yarn add morgan
+yarn add graphql-tools merge-graphql-schemas
+```
