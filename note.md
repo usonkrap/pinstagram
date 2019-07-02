@@ -25,3 +25,6 @@ yarn add graphql-tools merge-graphql-schemas
 
 ## 2.0 Intro Prisma
 ORM (Object Relational Mapping)
+
+## 2.4 Integrating Prisma in our Server
+prisma depoy && generate

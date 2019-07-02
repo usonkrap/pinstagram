@@ -13,13 +13,17 @@
     "graphql-tools": "^4.0.5",
     "graphql-yoga": "^1.18.0",
     "merge-graphql-schemas": "^1.5.8",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "prisma": "^1.34.0",
+    "prisma-client-lib": "^1.34.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
   },
   "scripts": {
     "deploy": "prisma deploy",
+    "generate": "prisma generate",
+    "prisma": "yarn deploy && yarn generate",
     "dev": "nodemon --exec babel-node src/server.js"
   }
 }
