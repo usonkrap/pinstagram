@@ -22,3 +22,6 @@ yarn add @babel/preset-env
 yarn add morgan
 yarn add graphql-tools merge-graphql-schemas
 ```
+
+## 2.0 Intro Prisma
+ORM (Object Relational Mapping)
