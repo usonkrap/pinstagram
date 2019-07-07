@@ -7,9 +7,9 @@ const jwtOptions = {
   secretOrKey: process.env.JWT_SECRET
 };
 
-const verifyUser = (payload, done) => {
+const verifyUser = async (payload, done) => {
   try {
-    const user = prisma.user({ id: payload.id });
+    const user = await prisma.user({ id: payload.id });
     if (user !== null) {
       return done(null, user);
     } else {
