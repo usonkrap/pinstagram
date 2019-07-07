@@ -42,4 +42,16 @@ Nodemailer
 yarn add nodemailer
 ```
 
-SendGrid
+SendGrid + nodemailer
+https://sendgrid.com
+
+```
+yarn add nodemailer-sendgrid-transport
+```
+
+## 3.4 Passport JWT
+
+```
+yarn add passport passport-jwt
+yarn add jsonwebtoken
+```

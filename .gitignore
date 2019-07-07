@@ -63,3 +63,6 @@ typings/
 # prisma
 generated
 prisma.yml
+
+# vscode
+.vscode
