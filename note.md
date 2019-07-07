@@ -1,4 +1,5 @@
 ## 1.0 Setting up the Project
+
 new repo
 git clone ~
 
@@ -10,6 +11,7 @@ yarn add babel-cli
 ```
 
 ## 1.1 Creating GraphQL Server
+
 ```
 yarn add dotenv
 yarn add @babel/core
@@ -18,13 +20,26 @@ yarn add @babel/preset-env
 ```
 
 ## 1.2 Setting Up the Server like the Props
+
 ```
 yarn add morgan
 yarn add graphql-tools merge-graphql-schemas
 ```
 
 ## 2.0 Intro Prisma
+
 ORM (Object Relational Mapping)
 
 ## 2.4 Integrating Prisma in our Server
+
 prisma depoy && generate
+
+## 3.3 Send mail function with Nodemailer
+
+Nodemailer
+
+```
+yarn add nodemailer
+```
+
+SendGrid
