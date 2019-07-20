@@ -1,6 +1,6 @@
 ## 1.0 Setting up the Project
 
-new repo
+new repo<br>
 git clone ~
 
 ```
@@ -55,3 +55,14 @@ yarn add nodemailer-sendgrid-transport
 yarn add passport passport-jwt
 yarn add jsonwebtoken
 ```
+
+
+
+## 19.1 Building the Server
+```
+yarn add @babel/cli
+yarn add @babel/plugin-transform-runtime -D
+yarn add @babel/runtime
+```
+- building<br>
+babel src -d build

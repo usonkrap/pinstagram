@@ -66,3 +66,6 @@ prisma.yml
 
 # vscode
 .vscode
+
+#build
+build
