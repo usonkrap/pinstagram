@@ -56,13 +56,17 @@ yarn add passport passport-jwt
 yarn add jsonwebtoken
 ```
 
-
-
 ## 19.1 Building the Server
+
 ```
 yarn add @babel/cli
 yarn add @babel/plugin-transform-runtime -D
 yarn add @babel/runtime
 ```
+
 - building<br>
-babel src -d build
+  babel src -d build
+
+## http headers
+
+{"authorization": "bearer [KEY]"}
